@@ -3,6 +3,8 @@
     <head>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="mediaqueries.css"/>
+        <link rel="stylesheet" href="aos-by-red.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <nav id="desktop-nav">
@@ -19,10 +21,10 @@
         <section id="profile">
             <div class="section__text">
                 <p class="section__text__p1">Hello, I'm</p>
-                <h1 class="title">Bernard Justin Dayao</h1>
+                <h1 class="title" data-aos="fade-right">Bernard Justin Dayao</h1>
                 <p style="text-align: center;">Bachelor of Science in Information Techonology</p>
                 <h3 class="section__text__p2">Student at <span class="words_to_style">Malayan Colleges Laguna</span></h3>
-                <div class="btnProf">
+                <div class="btnProf" data-aos="fade-left">
                     <button class="btnColor0">
                         <a href="https://github.com" target="_blank">Github</a>
                     </button>
@@ -33,7 +35,7 @@
         <section id="about">
             <p class="section__text__p1">Get to know more</p>
             <h2 class="title">About Me</h2>
-            <div class="section-container">
+            <div class="section-container" data-aos="zoom-in">
             <div class = "about-details-container">
                 <div class= "about-container">
                     <div class="detail-containers">
@@ -49,14 +51,14 @@
             <h2 class="title">Projects</h2>
             <div class="about-containers">
             <div class = "experience-details-container">
-                <div class="detail-containers color-container">
+                <div class="detail-containers color-container" data-aos="fade-down-left">
                     <div class="article-container">
                         <img src="Screenshot 2024-01-12 170531.png" alt="My website" class="project-img"/>
                     </div>
                     <h2 class="experience-sub-title project-title">My website</h2>
                     <p class="desc">Made with HTML and CSS</p>
                 </div>
-                <div class="detail-containers color-container">
+                <div class="detail-containers color-container" data-aos="fade-down-right">
                     <div class="article-container">
                         <img src="Screenshot 2024-01-12 174055.png" alt="Game" class="project-img"/>
                     </div>
@@ -72,7 +74,7 @@
             <div class="section__text__p1">
                 <p class="section__text__p1">Remain connected</p>
                 <h1 class="title">Contact Me</h1>
-                <div class="contact-info-upper-container">
+                <div class="contact-info-upper-container" data-aos="fade-right">
                     <div class="contact-info-container">
                         <img src="email.png" alt="email" class="icon contact-icon"/>
                         <p><a href="mailto:dbernardjustin@gmail.com">dbernardjustin@gmail.com</p>
@@ -81,5 +83,12 @@
             </div>
             
         </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 3000,
+            once: true,
+          });
+        </script>
     </body>
 </html>
