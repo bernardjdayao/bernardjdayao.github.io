@@ -131,6 +131,20 @@ span{
     border-radius: 2rem;
 }
 
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: pink;
+    transition: background-color 0.5s;
+}
+
+.detail-containers{
+    cursor: default;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: pink;
+}
+
+
 .btnColor0,.btnColor1{
     border:rgb(53,53,53) 0.1rem solid;
 }
@@ -249,4 +263,26 @@ span{
 
 .contact-icon{
     cursor: default;
+}
+
+.about-containers{
+    animation: easeIn ease 1000ms;
+}
+@keyframes easeIn{
+    0%{
+        opacity:0
+    }
+    50%{
+        opacity:100%
+    }
+    100%{
+        opacity:0
+    }
+}
+
+.contact-info-upper-container:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: pink;
+    transition: background-color 0.5s;
 }
