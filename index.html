@@ -13,15 +13,32 @@
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#project">Project</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Bernard Justin Dayao</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
             </div>
         </nav>
 
         <section id="profile">
             <div class="section__text">
                 <p class="section__text__p1">Hello, I'm</p>
-                <h1 class="title" data-aos="fade-right">Bernard Justin Dayao</h1>
+                <h1 class="name" data-aos="fade-right">Bernard Justin Dayao</h1>
                 <p style="text-align: center;">Bachelor of Science in Information Techonology</p>
                 <h3 class="section__text__p2">Student at <span class="words_to_style">Mapua Malayan Colleges Laguna</span></h3>
                 <div class="btnProf" data-aos="fade-left">
@@ -37,13 +54,77 @@
             <h2 class="title">About Me</h2>
             <div class="section-container" data-aos="zoom-in">
             <div class = "about-details-container">
-                <div class= "about-container">
+                <div class= "about-containers">
                     <div class="detail-containers">
                         <img src="MMCL_Logo.original.png" alt="Experience icon" class="icon1"/>
                         <h3>Education</h3>
                         <p>Malayan Colleges Laguna <br />I'm currently student taking the course <br>Bachelor of Science in Information Techonology</p>
                     </div>
                 </div>
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Know my</p>
+            <h2 class="title">Experience</h2>
+            <div class="section-container" data-aos="zoom-in">
+            <div class = "about-details-container">
+                <div class= "about-containers">
+                    <div class="detail-containers">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class= "about-containers">
+                    <div class="detail-containers">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>C++</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>C#</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                                <div>
+                                    <h3>Python</h3>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="project">
             <div class="section__text">
@@ -77,12 +158,13 @@
                 <div class="contact-info-upper-container" data-aos="fade-right">
                     <div class="contact-info-container">
                         <img src="email.png" alt="email" class="icon contact-icon"/>
-                        <p><a href="mailto:dbernardjustin@gmail.com">dbernardjustin@gmail.com</p>
+                        <p><a href="mailto:dbernardjustin@gmail.com">dbernardjustin@gmail.com</a></p>
                     </div>
                 </div>            
             </div>
             
         </section>
+        <script src="script.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init({
