@@ -5,7 +5,7 @@ HTML tags and structure were the first to do and finish, just know the structure
 2nd Criteria:
 The design, I just experimented a lot and when the design looked the way I like then it is finished. Mostly, this process was repeated over and over.<br>
 
-4th and 5th Criteria:
+3rd and 4th Criteria:
 I chose a minimalist design, more on the easier to read side of the spectrum. The content used is straightforward so that no time is wasted. I mostly do not have an eye for design but I do grasp what is pleasing to the eyes and so I just adjusted the elements to how I like them to look. I also took advantage of scroll effects/animations and keyframe functions to animate some of the elements as well to add a bit of flavor to the website.<br>
 
 5th Criteria:
